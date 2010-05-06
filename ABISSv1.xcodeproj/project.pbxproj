@@ -1,0 +1,358 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
+		256AC3DA0F4B6AC300CF3369 /* ABISSv1AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 256AC3D90F4B6AC300CF3369 /* ABISSv1AppDelegate.m */; };
+		7C51655310C7844000AB013B /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C51655210C7844000AB013B /* icon.png */; };
+		7C6DCD8D10C9AEE000AF1093 /* icon20.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C6DCD8C10C9AEE000AF1093 /* icon20.png */; };
+		7C6DCE1510C9C0ED00AF1093 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C6DCE1410C9C0ED00AF1093 /* CoreFoundation.framework */; };
+		7C6DD00A10CA0DC100AF1093 /* icon-alt.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C6DD00710CA0DC100AF1093 /* icon-alt.png */; };
+		7C6DD00B10CA0DC100AF1093 /* icon20-alt.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C6DD00810CA0DC100AF1093 /* icon20-alt.png */; };
+		7C6DD00C10CA0DC100AF1093 /* icon30-alt.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C6DD00910CA0DC100AF1093 /* icon30-alt.png */; };
+		7C79129210C85B6900AB722E /* icon30.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C79129010C85B6900AB722E /* icon30.png */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		E33A745110C611520079941A /* audio_switch.c in Sources */ = {isa = PBXBuildFile; fileRef = E33A744F10C611520079941A /* audio_switch.c */; };
+		E33A745510C611A20079941A /* smslib.m in Sources */ = {isa = PBXBuildFile; fileRef = E33A745410C611A20079941A /* smslib.m */; };
+		E33A745910C611F80079941A /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E33A745810C611F80079941A /* CoreAudio.framework */; };
+		E33A745B10C611F80079941A /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E33A745A10C611F80079941A /* CoreServices.framework */; };
+		E33A745D10C611F80079941A /* IOBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E33A745C10C611F80079941A /* IOBluetooth.framework */; };
+		E33A745F10C611F80079941A /* IOBluetoothUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E33A745E10C611F80079941A /* IOBluetoothUI.framework */; };
+		E33A747910C612600079941A /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E33A747810C612600079941A /* IOKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		1DDD58150DA1D0A300B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		256AC3D80F4B6AC300CF3369 /* ABISSv1AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABISSv1AppDelegate.h; sourceTree = "<group>"; };
+		256AC3D90F4B6AC300CF3369 /* ABISSv1AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABISSv1AppDelegate.m; sourceTree = "<group>"; };
+		256AC3F00F4B6AF500CF3369 /* ABISSv1_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABISSv1_Prefix.pch; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		7C51655210C7844000AB013B /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		7C6DCD8C10C9AEE000AF1093 /* icon20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon20.png; sourceTree = "<group>"; };
+		7C6DCE1410C9C0ED00AF1093 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = /System/Library/Frameworks/CoreFoundation.framework; sourceTree = "<absolute>"; };
+		7C6DD00710CA0DC100AF1093 /* icon-alt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-alt.png"; sourceTree = "<group>"; };
+		7C6DD00810CA0DC100AF1093 /* icon20-alt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon20-alt.png"; sourceTree = "<group>"; };
+		7C6DD00910CA0DC100AF1093 /* icon30-alt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon30-alt.png"; sourceTree = "<group>"; };
+		7C79129010C85B6900AB722E /* icon30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon30.png; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* ABISSv1-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ABISSv1-Info.plist"; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* ABISSv1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ABISSv1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E33A744F10C611520079941A /* audio_switch.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = audio_switch.c; sourceTree = "<group>"; };
+		E33A745010C611520079941A /* audio_switch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = audio_switch.h; sourceTree = "<group>"; };
+		E33A745310C611A20079941A /* smslib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = smslib.h; sourceTree = "<group>"; };
+		E33A745410C611A20079941A /* smslib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = smslib.m; sourceTree = "<group>"; };
+		E33A745810C611F80079941A /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		E33A745A10C611F80079941A /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+		E33A745C10C611F80079941A /* IOBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOBluetooth.framework; path = System/Library/Frameworks/IOBluetooth.framework; sourceTree = SDKROOT; };
+		E33A745E10C611F80079941A /* IOBluetoothUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOBluetoothUI.framework; path = System/Library/Frameworks/IOBluetoothUI.framework; sourceTree = SDKROOT; };
+		E33A747810C612600079941A /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				E33A745910C611F80079941A /* CoreAudio.framework in Frameworks */,
+				E33A745B10C611F80079941A /* CoreServices.framework in Frameworks */,
+				E33A745D10C611F80079941A /* IOBluetooth.framework in Frameworks */,
+				E33A745F10C611F80079941A /* IOBluetoothUI.framework in Frameworks */,
+				E33A747910C612600079941A /* IOKit.framework in Frameworks */,
+				7C6DCE1510C9C0ED00AF1093 /* CoreFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				256AC3D80F4B6AC300CF3369 /* ABISSv1AppDelegate.h */,
+				256AC3D90F4B6AC300CF3369 /* ABISSv1AppDelegate.m */,
+				E33A744A10C6113A0079941A /* AudioSwitcher */,
+				E33A745210C611650079941A /* SMSLib */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+				E33A745810C611F80079941A /* CoreAudio.framework */,
+				E33A745A10C611F80079941A /* CoreServices.framework */,
+				E33A745C10C611F80079941A /* IOBluetooth.framework */,
+				E33A745E10C611F80079941A /* IOBluetoothUI.framework */,
+				E33A747810C612600079941A /* IOKit.framework */,
+				7C6DCE1410C9C0ED00AF1093 /* CoreFoundation.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* ABISSv1.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* ABISSv1 */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = ABISSv1;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				256AC3F00F4B6AF500CF3369 /* ABISSv1_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7C6DD00710CA0DC100AF1093 /* icon-alt.png */,
+				7C6DD00810CA0DC100AF1093 /* icon20-alt.png */,
+				7C6DD00910CA0DC100AF1093 /* icon30-alt.png */,
+				7C6DCD8C10C9AEE000AF1093 /* icon20.png */,
+				7C79129010C85B6900AB722E /* icon30.png */,
+				7C51655210C7844000AB013B /* icon.png */,
+				8D1107310486CEB800E47090 /* ABISSv1-Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E33A744A10C6113A0079941A /* AudioSwitcher */ = {
+			isa = PBXGroup;
+			children = (
+				E33A744F10C611520079941A /* audio_switch.c */,
+				E33A745010C611520079941A /* audio_switch.h */,
+			);
+			name = AudioSwitcher;
+			sourceTree = "<group>";
+		};
+		E33A745210C611650079941A /* SMSLib */ = {
+			isa = PBXGroup;
+			children = (
+				E33A745310C611A20079941A /* smslib.h */,
+				E33A745410C611A20079941A /* smslib.m */,
+			);
+			name = SMSLib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* ABISSv1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "ABISSv1" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ABISSv1;
+			productInstallPath = "$(HOME)/Applications";
+			productName = ABISSv1;
+			productReference = 8D1107320486CEB800E47090 /* ABISSv1.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "ABISSv1" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* ABISSv1 */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* ABISSv1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
+				7C51655310C7844000AB013B /* icon.png in Resources */,
+				7C79129210C85B6900AB722E /* icon30.png in Resources */,
+				7C6DCD8D10C9AEE000AF1093 /* icon20.png in Resources */,
+				7C6DD00A10CA0DC100AF1093 /* icon-alt.png in Resources */,
+				7C6DD00B10CA0DC100AF1093 /* icon20-alt.png in Resources */,
+				7C6DD00C10CA0DC100AF1093 /* icon30-alt.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				256AC3DA0F4B6AC300CF3369 /* ABISSv1AppDelegate.m in Sources */,
+				E33A745110C611520079941A /* audio_switch.c in Sources */,
+				E33A745510C611A20079941A /* smslib.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1DDD58140DA1D0A300B32029 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD58150DA1D0A300B32029 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ABISSv1_Prefix.pch;
+				INFOPLIST_FILE = "ABISSv1-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = ABISSv1;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ABISSv1_Prefix.pch;
+				INFOPLIST_FILE = "ABISSv1-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = ABISSv1;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "ABISSv1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "ABISSv1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
